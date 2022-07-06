@@ -1,2 +1,69 @@
-# t_machine_learning_project
-This is my First Machine Learning project
+## Start Machine Learning project.
+
+### Software and account Requirement.
+
+1. [Github Account](https://github.com)
+2. [Heroku Account](https://dashboard.heroku.com/login)
+3. [VS Code IDE](https://code.visualstudio.com/download)
+4. [GIT cli](https://git-scm.com/downloads)
+5. [GIT Documentation](https://git-scm.com/docs/gittutorial)
+
+
+Creating conda environment
+```
+conda create -p venv python==3.7 -y
+```
+
+To activate environment
+```
+conda activate venv
+```
+or
+```
+conda activate venv/
+```
+
+To install all requirements mentioned in requirements.txt file
+```
+pip install -r requirements.txt
+```
+
+To add files to git
+```
+git add .
+```
+or
+```
+git add <file name>
+```
+or
+```
+git add <filename1> <filename2>
+```
+
+> Note: to ignore file or folder from git we can write name of file/folder in .gitignore file
+
+to create version/commit all changes by git
+```
+git commit -m "message"
+```
+
+to send version/changes to github
+```
+git push origin main
+```
+
+to check git status
+```
+git status
+```
+
+to check versions maintained by git
+```
+git log
+```
+
+to check remote url
+```
+git remote -v
+```
