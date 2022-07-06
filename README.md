@@ -71,4 +71,4 @@ git remote -v
 To setup CI/CD pipeline in heroku we need 3 information
 1. HEROKU_EMAIL = etamilselvan2022@gmail.com
 2. HEROKU_API_KEY = 8eb724b7-4d2c-4c6e-bbc5-905df68066f4
-3. HEROKU_APP_NAME = mlapp-16072022
+3. HEROKU_APP_NAME = mlapp-160720221
